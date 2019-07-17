@@ -1,0 +1,54 @@
+
+
+.App-header {
+  background: linear-gradient(-45deg, #00151f, #23a5bc);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#contenido{
+ font-Size: '30px';
+ margin-Left: '10px';
+ margin-Right: '10px';
+ line-Height: '25px';
+}
+nav {
+  color: black;
+  background: linear-gradient(-45deg, #FCFDFD, #FCFDFD);
+  line-height: 56px;
+}
+nav img {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+nav link {
+  margin-top: -2px;
+}
+nav button {
+  height: 35px;
+  color: black;
+}
+#NGVD{
+  color: 'black'
+}
+#MuiPaper-root MuiPaper-elevation0 MuiStepper-root MuiStepper-vertical{
+  padding-left: 100px; 
+  margin-top: 200px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
